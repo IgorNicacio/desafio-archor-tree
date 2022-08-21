@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu:wght@300&display=swap');
+
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #00001D;
+    
+}
+#face{
+    width: 12vh;
+}
+#foto-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom:2em ;
+}
+#foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: #01193F;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30em;
+    
+}
+.link{
+    text-align: center;
+    align-self:stretch;
+    text-decoration: none;
+    background-color: #01193F;
+    margin: 1em;
+    padding: 10px;
+    padding-left: 10em;
+    padding-right: 10em;
+    color:#E9E0DF;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    border-radius: 2em;
+
+}
+.link:hover{
+    background-color: #FFB100;
+    color: #00001D;
+    transition: ease-in-out 0.3s;
+}
+#align{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #E9E0DF;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+}
+.fa{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+.fa:hover{
+    color: #FFB100;
+    transition: ease-in-out 0.3;
+}
